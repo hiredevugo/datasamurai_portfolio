@@ -343,6 +343,10 @@ p {
         margin-top: -65px;
     }
 
+    nav img {
+        width: 200px;
+    }
+
 
     .hero-section-links {
         flex-direction: column;
