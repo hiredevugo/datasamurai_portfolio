@@ -292,6 +292,29 @@ p {
     justify-content: center;
 }
 
+li {
+    padding: 0 30px;
+    font-size: 17px;
+}
+
+/* Tech Stack Logo Slider */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    max-height: 100px; /* Adjust according to your desired size */
+    margin: 0 40px;    /* Spacing between logos */
+}
+
+
 /* mobile responsiveness - start */
 @media (max-width: 992px){
     .hero-section {
