@@ -131,6 +131,9 @@ p {
     margin-top: 25px;
 }
 
+p li {
+    padding: 0 30px;
+
 
 #background {
     margin-top: 15px;
